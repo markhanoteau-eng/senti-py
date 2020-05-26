@@ -26,20 +26,7 @@ import marisa_trie
 
 ## DEFINE CONSTANTS
 
-pathsData = { 'SENSACINE_SERIES' : "Classifier/dataset/sensaCineSerie.txt",
-              'SENSACINE_MOVIES' : "Classifier/dataset/sensaCineMovie.txt",
-              'PEDIDOS_YA' : "Classifier/dataset/pedidosYa.txt",
-              'TRIP_ADVISOR_HOTEL' : "Classifier/dataset/tripAdvisorHotel.txt",
-              'TRIP_ADVISOR_RESTAURANT' : "Classifier/dataset/tripAdvisorRestaurant.txt",
-              'TRIP_ADVISOR_ATTRACTION' : "Classifier/dataset/tripAdvisorAttraction.txt",
-              'OPEN_CINE' : "Classifier/dataset/openCine.txt",
-              'QUEJAS_ONLINE' : "Classifier/dataset/quejas.txt",
-              'APESTAN' : "Classifier/dataset/apestan.txt",
-              'BAD_TWEETS' : "Classifier/dataset/badTweets.txt",
-              'GOOD_TWEETS' : "Classifier/dataset/goodTweets.txt",
-              'TASS_DATASET' : "Classifier/dataset/tassTweets.txt",
-              'MERCADOLIBRE_POS' : "Classifier/dataset/MercadoPos.txt",
-              'MERCADOLIBRE_NEG' : "Classifier/dataset/MercadoNeg.txt" }
+pathsData = {  }
 
 MERCADO_RATIO = 100000
 dataDelimiter = '__dataDelimiter__'
