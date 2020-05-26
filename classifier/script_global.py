@@ -512,5 +512,7 @@ class sentimentClassifier:
 ## LOADING 
 print('Loading Spacy library ..')
 import spacy
-import es_core_web_md
-nlp = es_core_web_md.load()
+spacy.cli.download("es")
+import es_core_news_sm
+nlp = es_core_news_sm.load()
+##nlp = es_core_web_md.load()
