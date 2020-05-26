@@ -19,7 +19,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.externals import joblib
+import joblib
 
 print('Loading the project modules ..')
 import marisa_trie
