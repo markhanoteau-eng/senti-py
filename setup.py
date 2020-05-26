@@ -33,7 +33,7 @@ setup(
     keywords='natural language processing sentiment analysis',
     #   packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     packages = ['classifier', 'crawlers'],
-    install_requires=['pandas', 'numpy', 'tqdm','nltk', 'sklearn', 'marisa-trie','spacy','es_core_web_md'],
+    install_requires=['pandas', 'numpy', 'tqdm','nltk', 'sklearn', 'marisa-trie','spacy','es_core_news_sm'],
     extras_require={
         'crawl': ['bs4', 'urllib']
             },
