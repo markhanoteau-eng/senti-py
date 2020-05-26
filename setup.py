@@ -13,7 +13,7 @@ setup(
     version='1.0.1',
     description='A sentiment analysis classifier in spanish.',
     long_description=long_description,
-    url='https://github.com/aylliote/senti-py',
+    url='https://github.com/markhanoteau-eng/senti-py',
     download_url='https://github.com/aylliote/senti-py/archive/master.zip',
     author='Elliot Hofman',
     author_email='elliot.hofman@gmail.com',
