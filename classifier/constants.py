@@ -2,20 +2,7 @@ import re
 import json
 
 ## Constants importation Data
-""" pathsData = { 'SENSACINE_SERIES' : "Classifier/data/sensaCineSerie.txt",
-              'SENSACINE_MOVIES' : "Classifier/data/sensaCineMovie.txt",
-              'PEDIDOS_YA' : "Classifier/data/pedidosYa.txt",
-              'TRIP_ADVISOR_HOTEL' : "Classifier/data/tripAdvisorHotel.txt",
-              'TRIP_ADVISOR_RESTAURANT' : "Classifier/data/tripAdvisorRestaurant.txt",
-              'TRIP_ADVISOR_ATTRACTION' : "Classifier/data/tripAdvisorAttraction.txt",
-              'OPEN_CINE' : "Classifier/data/openCine.txt",
-              'QUEJAS_ONLINE' : "Classifier/data/quejas.txt",
-              'APESTAN' : "Classifier/data/apestan.txt",
-              'BAD_TWEETS' : "Classifier/data/badTweets.txt",
-              'GOOD_TWEETS' : "Classifier/data/goodTweets.txt",
-              'TASS_DATASET' : "Classifier/data/tassTweets.txt",
-              'MERCADOLIBRE_POS' : "Classifier/data/MercadoPos.txt",
-              'MERCADOLIBRE_NEG' : "Classifier/data/MercadoNeg.txt" } """
+""" pathsData = {} """
 
 MERCADO_RATIO = 50000
 dataDelimiter = '__dataDelimiter__'
